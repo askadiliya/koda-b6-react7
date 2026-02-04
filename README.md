@@ -1,16 +1,30 @@
-# React + Vite
+# Productive Daily Routine Checklist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project sederhana berbasis **React + TailwindCSS** untuk membuat checklist rutinitas harian dalam 1 minggu (Senin - Minggu).
 
-Currently, two official plugins are available:
+Project ini memiliki fitur utama yaitu **Reset All**, yang memungkinkan pengguna menghapus semua checklist yang sudah dicentang.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Fitur
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Menampilkan daftar rutinitas harian dalam 3 kategori:
+  - Morning (Pagi)
+  - Afternoon (Siang)
+  - Evening (Malam)
+- Checklist berdasarkan hari (MON - SUN)
+- User dapat mencentang dan membatalkan centang checklist
+- Tombol **Reset All** untuk menghapus semua checklist sekaligus
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Teknologi yang Digunakan
+
+- React JS (Vite)
+- Tailwind CSS
+- React Hook `useRef`
+
+---
+
+## Screenshot
+![Todos](img/Todos.png)
